@@ -1,1 +1,1 @@
-# jezyki-skryptowe
+# skryptowe-jezyki
