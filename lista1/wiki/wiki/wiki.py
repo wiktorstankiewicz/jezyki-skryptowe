@@ -7,7 +7,7 @@ def run():
     articleName = str(input())
     print("Processing...")
     try:
-        page = wikipedia.page(title=articleName)
+        page = wikipedia.page(title=articleName,auto_suggest=False)
         summary = page.summary
         url = page.url
         print(summary)
